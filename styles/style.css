@@ -3,6 +3,9 @@ body{
     margin: 0 auto;
     padding: 0;
 }
+section{
+    max-width: 1140px;
+}
 
 /* header styles */
 header{
@@ -10,20 +13,24 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.logo-section{
+/* navbar section styles */
+.navbar-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    max-width: 1140px;
     height: 151px;
     margin: 0 auto;
+    padding: 0 30px;
 }
 .logo{
     color: #4E47FF;
     font-size: 34px;
     font-weight: 900;
     font-family: "Inter", sans-serif;
+}
+.navbar-section a{
+    text-decoration: none;
 }
 
 /* banner styles */
@@ -38,12 +45,38 @@ header{
     font-family: "Raleway", sans-serif;
     color: #252432;
 }
+
+/* Action Section Styles */
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 220px;
+    margin: 116px auto;
+    align-items: center;
+}
+.action-left-title{
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    font-weight: 800;
+    color: #252432;
+}
+.action-left-desc{
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(37, 36, 50, 0.5);
+}
+.action-image{
+    border-radius: 48px;
+    
+}
+
 /* shared styles */
 .primary-color{
     color: #4E47FF;
 }
 
-.primary-button{
+.primary-btn{
     background-color: #4E47FF;
     border-radius: 8px;
     color: #fff;
@@ -65,6 +98,6 @@ header{
 .raleway-font {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 400;
   font-style: normal;
 }
