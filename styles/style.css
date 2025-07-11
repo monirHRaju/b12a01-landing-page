@@ -107,6 +107,75 @@ header{
     margin: 0;
 }
 
+/* Review Section Styles */
+.review-section{
+    margin: 137px auto;
+    
+}
+.reviews{
+    display: flex;
+    justify-content: space-between ;
+    padding: 0;
+    gap: 40px;
+}
+
+.reviewer-section{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.reviewer-column h6, p{
+    margin: 0;
+    padding: 0;
+}
+.review-title{
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    color: #252432;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.review-column{
+    background-color: #FFFFFF;
+    border-radius: 14px; 
+    padding: 24px;
+    width: 33%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.star{
+    width: 20px;
+    
+}
+.review-col-title{
+    font-size: 26px;
+    color: #252432;
+    margin-top: 24px;
+    margin-bottom: 0;  
+}
+.review-sub-title{
+    font-size: 18px;
+    color: #B3B3B3;
+    margin-top: 8px;
+    margin-bottom: 24px;  
+}
+.reviewer-column img{
+    width: 40px;
+    border-radius: 50%;  
+}
+.reviewer-column h6{
+    font-size: 20px;
+    color: #B3B3B3;
+    /* margin-top: 8px;
+    margin-bottom: 24px;   */
+}
+.reviewer-column p{
+    font-size: 18px;
+    color: #B3B3B3;
+    margin-top: 6px;
+}
 
 
 /* shared styles */
