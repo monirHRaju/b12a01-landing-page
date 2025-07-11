@@ -46,7 +46,10 @@ header{
     font-family: "Raleway", sans-serif;
     color: #252432;
 }
-
+/* Main Section */
+main{
+    background: linear-gradient(to bottom, #fff, rgba(78, 71, 255, 0.1) );
+}
 /* Action Section Styles */
 .action-section{
     display: flex;
@@ -176,6 +179,37 @@ header{
     color: #B3B3B3;
     margin-top: 6px;
 }
+
+/* Focus Section Styles */
+.focus{
+    background-color: #fff;
+    border-radius: 14px;
+    padding: 70px 150px;
+    margin-bottom: 90px;
+    text-align: center;
+}
+.focus h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #252432;
+    font-family: "Raleway", sans-serif;
+}
+.focus p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #B3B3B3;
+}
+.focus img{
+    border-radius: 48px;
+}
+
+.focus button{
+    margin: 20px 0px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
 
 
 /* shared styles */
