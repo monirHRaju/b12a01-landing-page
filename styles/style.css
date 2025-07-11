@@ -187,6 +187,7 @@ main{
     padding: 70px 150px;
     margin-bottom: 90px;
     text-align: center;
+    align-items: center;
 }
 .focus h1{
     font-size: 50px;
@@ -210,6 +211,46 @@ main{
     font-size: 16px;
 }
 
+/* Get in touch Section */
+.message-section{
+    display: flex;
+    align-items: center;
+   
+}
+.title-column{
+    text-align: left;
+
+}
+.message-title{
+    font-size: 97px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #252432;
+    font-family: "Raleway", sans-serif;
+}
+
+input[type="email"], [type="text"], textarea{
+    font-size: 20px;
+    width: 490px;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    padding: 20px 32px;
+}
+form input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+form label{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.btn-get-in-touch{
+    width: 100%;
+    line-height: 1.5;
+    padding: 20px 0;;
+}
+
 
 
 /* shared styles */
@@ -222,11 +263,19 @@ main{
     border-radius: 8px;
     color: #fff;
     font-weight: bold;
+    font-size: 16px;
     padding: 12px 36px;
     border: none;
     cursor: pointer;
     font-family: "Raleway", sans-serif;
+    transition: 0.3s;
 
+}
+/* button hover effect */
+.primary-btn:hover{
+    background-color: #ecc30f;
+    color: #000;
+    
 }
 
 .inter-font {
