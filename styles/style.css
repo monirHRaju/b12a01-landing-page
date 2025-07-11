@@ -5,6 +5,7 @@ body{
 }
 section{
     max-width: 1140px;
+    margin: 0 auto;
 }
 
 /* header styles */
@@ -68,8 +69,45 @@ header{
 }
 .action-image{
     border-radius: 48px;
+
+}
+
+/* Productive Users section Styles */
+.productive-user-section{
+    text-align: center;
+    background-color: rgba(78, 71, 255, 0.1);
+    padding: 50px 140px;
+    border-radius: 24px;
+}
+.productive-users{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:158px;
     
 }
+.productive-user-title{
+    font-family: "Raleway", sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    color: #252432;
+}
+.puc-title{
+    font-family: "Inter", sans-serif;
+    font-size: 80px;
+    font-weight: 800;
+    color: #4E47FF;
+    margin: 0;
+}
+.puc-sub-title{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+
 
 /* shared styles */
 .primary-color{
